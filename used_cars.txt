@@ -1,0 +1,10 @@
+ID                   BIGINT         PK: AUTO_INCREMENT, UNIQUE, NN
+Marca                VARCHAR(80)    NOTNULL
+Modello              VARCHAR(80)    NOTNULL
+Prezzo               DECIMAL(8, 2)  NOTNULL
+Colore               VARCHAR(40)    NULLABLE
+Anno                 YEAR           NOTNULL
+Propietari           TINYINT        NULLABLE
+Carburante           VARCHAR(40)    NOTNULL
+Km                   INT            NOTNULL
+Descrizione          TEXT           NULLABLE
